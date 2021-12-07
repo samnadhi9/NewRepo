@@ -1,4 +1,4 @@
-node('jdk11-mvn3.8.4') {
+node('JDK11-MVN3.8.4') {
     stage('git') {
           git 'https://github.com/samnadhi9/NewRepo.git' 
     }
