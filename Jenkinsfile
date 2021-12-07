@@ -1,6 +1,7 @@
 node('jdk11-mvn3.8.4') {
     stage('git') {
-       git branch: 'main', url: 'https://github.com/samnadhi9/NewRepo' 
+          git 'https://github.com/samnadhi9/NewRepo' 
+ 
     }
     stage('build') {
         sh '''
